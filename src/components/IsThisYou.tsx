@@ -23,10 +23,13 @@ export const IsThisYou = () => {
   return (
     <section className="py-20">
       <div className="container px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Is This You?</h2>
-        <p className="text-center text-muted-foreground mb-12 text-lg max-w-2xl mx-auto">
-          We designed this bootcamp for graduates and career-changers who are ready to take action.
-        </p>
+        <div className="text-center mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">Doing smarter, not harder</h2>
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+            We designed this bootcamp for graduates and career-changers who are ready to take action.
+          </p>
+        </div>
+        <p className="text-center text-primary font-semibold mb-12">IS THIS YOU?</p>
         
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {points.map((point, index) => (

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Hero } from "@/components/Hero";
+import { StatsBar } from "@/components/StatsBar";
 import { TrustStrip } from "@/components/TrustStrip";
 import { IsThisYou } from "@/components/IsThisYou";
 import { WhatYouLearn } from "@/components/WhatYouLearn";
@@ -40,6 +41,7 @@ const Index = () => {
         onFitCallClick={handleFitCallClick}
         onFitQuizClick={handleFitQuizClick}
       />
+      <StatsBar />
       <TrustStrip />
       <IsThisYou />
       <WhatYouLearn />

@@ -2,31 +2,53 @@ import { Card } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 
 export const Testimonial = () => {
+  const testimonials = [
+    {
+      quote: "This cohort gave me the portfolio I used to land a Project Assistant role.",
+      name: "Tobi A.",
+      role: "Salford Business School Graduate",
+      initial: "T"
+    },
+    {
+      quote: "The studio access and real client work made all the difference in my interviews.",
+      name: "Sarah M.",
+      role: "Manchester Met Graduate",
+      initial: "S"
+    }
+  ];
+
   return (
     <section className="py-20">
       <div className="container px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Real Outcomes</h2>
+        <div className="text-center mb-12">
+          <p className="text-primary font-semibold mb-4 tracking-wider text-sm">🌟 SUCCESS STORIES</p>
+          <h2 className="text-3xl md:text-5xl font-bold mb-2">Join over 67+ happy students</h2>
+        </div>
         
-        <Card className="max-w-4xl mx-auto p-8 md:p-12 relative overflow-hidden">
-          <div className="absolute top-8 left-8 text-primary/20">
-            <Quote className="w-16 h-16" />
-          </div>
-          
-          <div className="relative z-10">
-            <blockquote className="text-2xl md:text-3xl font-medium mb-6 leading-relaxed">
-              "This cohort gave me the portfolio I used to land a Project Assistant role."
-            </blockquote>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-xl">
-                T
+        <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+          {testimonials.map((testimonial, index) => (
+            <Card key={index} className="p-8 relative overflow-hidden hover:shadow-lg transition-all">
+              <div className="absolute top-6 right-6 text-primary/10">
+                <Quote className="w-12 h-12" />
               </div>
-              <div>
-                <div className="font-semibold">Tobi A.</div>
-                <div className="text-sm text-muted-foreground">Salford Business School Graduate</div>
+              
+              <div className="relative z-10">
+                <blockquote className="text-lg md:text-xl font-medium mb-6 leading-relaxed">
+                  "{testimonial.quote}"
+                </blockquote>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary text-xl">
+                    {testimonial.initial}
+                  </div>
+                  <div>
+                    <div className="font-semibold">{testimonial.name}</div>
+                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </Card>
+            </Card>
+          ))}
+        </div>
       </div>
     </section>
   );

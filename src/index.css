@@ -20,6 +20,7 @@ All colors MUST be HSL.
 
     --primary: 28 100% 50%;
     --primary-foreground: 0 0% 100%;
+    --primary-dark: 20 85% 25%;
 
     --secondary: 0 0% 98%;
     --secondary-foreground: 0 0% 29.4%;
@@ -62,6 +63,7 @@ All colors MUST be HSL.
 
     --primary: 28 100% 50%;
     --primary-foreground: 0 0% 100%;
+    --primary-dark: 20 85% 25%;
 
     --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 95%;
@@ -106,5 +108,13 @@ All colors MUST be HSL.
 @layer utilities {
   .bg-gray-section {
     @apply bg-[hsl(var(--bg-gray))];
+  }
+  
+  .bg-primary-dark {
+    @apply bg-[hsl(var(--primary-dark))];
+  }
+  
+  .text-primary-dark {
+    @apply text-[hsl(var(--primary-dark))];
   }
 }
