@@ -51,7 +51,7 @@ export const Investment = ({ onFitCallClick }: InvestmentProps) => {
           </Card>
 
           {/* Salford Offer - Featured */}
-          <Card className="p-6 relative bg-primary-dark text-white border-2 border-primary shadow-xl scale-105">
+          <Card className="p-6 relative bg-primary text-white border-2 border-primary shadow-xl scale-105">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2">
               <div className="px-4 py-1 bg-primary rounded-full text-xs font-bold text-white">
                 SALFORD OFFER

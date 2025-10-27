@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/projectcareer-logo.png";
 
 interface StickyHeaderProps {
   onFitCallClick: () => void;
@@ -23,7 +24,7 @@ export const StickyHeader = ({ onFitCallClick, onFitQuizClick }: StickyHeaderPro
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container px-4 py-3 flex items-center justify-between">
-        <div className="font-bold text-lg text-primary">PM Bootcamp</div>
+        <img src={logo} alt="ProjectCareer" className="h-8" />
         <div className="flex gap-3">
           <Button 
             size="sm"

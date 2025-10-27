@@ -6,7 +6,7 @@ export const TriTaster = () => {
   return (
     <section className="py-20 bg-gray-section">
       <div className="container px-4">
-        <Card className="bg-primary-dark text-white p-8 md:p-16 max-w-5xl mx-auto rounded-3xl overflow-hidden relative">
+        <Card className="bg-primary text-white p-8 md:p-16 max-w-5xl mx-auto rounded-3xl overflow-hidden relative">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
           <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2" />
           
@@ -23,7 +23,7 @@ export const TriTaster = () => {
               </p>
               <Button 
                 size="lg" 
-                className="bg-white text-primary-dark hover:bg-white/90 rounded-full px-8"
+                className="bg-white text-primary hover:bg-white/90 rounded-full px-8"
               >
                 Join Free Taster <ArrowRight className="ml-2" />
               </Button>

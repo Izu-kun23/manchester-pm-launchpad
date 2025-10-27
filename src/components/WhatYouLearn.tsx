@@ -26,7 +26,7 @@ export const WhatYouLearn = () => {
   ];
 
   return (
-    <section className="py-20 bg-primary-dark text-white">
+    <section className="py-20 bg-primary text-white">
       <div className="container px-4">
         <div className="text-center mb-12">
           <p className="text-primary-foreground/80 mb-4 tracking-wider text-sm font-semibold">SCALE, FLEX, AND INNOVATE</p>
