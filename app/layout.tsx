@@ -16,6 +16,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <title>ProjectCareer-Graduate PM</title>
+        <link rel="icon" href="/assets/pmlogo.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/assets/pmlogo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body>
         <QueryClientProvider client={queryClient}>
           <TooltipProvider>
