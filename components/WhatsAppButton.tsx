@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 
 export const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    // Replace with actual WhatsApp number
-    window.open("https://wa.me/447123456789?text=Hi! I'm interested in the PM Bootcamp", "_blank");
+    // Direct to ProjectCareer WhatsApp link
+    window.open("https://wa.link/5wfig7", "_blank");
   };
 
   return (

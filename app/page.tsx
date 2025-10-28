@@ -19,17 +19,23 @@ import { StickyHeader } from "@/components/StickyHeader";
 import { StickyFooter } from "@/components/StickyFooter";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { FitCallModal } from "@/components/FitCallModal";
+import { QuizModal } from "@/components/QuizModal";
 
 export default function HomePage() {
   const [isFitCallModalOpen, setIsFitCallModalOpen] = useState(false);
+  const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
 
   const handleFitCallClick = () => {
     setIsFitCallModalOpen(true);
   };
 
   const handleFitQuizClick = () => {
-    // Replace with your actual Typeform or quiz URL
-    window.open("https://your-typeform-url-here.com", "_blank");
+    setIsQuizModalOpen(true);
+  };
+
+  const handleOpenDayClick = () => {
+    // Handle open day click - you can implement this later
+    console.log('Open day clicked');
   };
 
   return (
@@ -62,6 +68,12 @@ export default function HomePage() {
       <FitCallModal 
         isOpen={isFitCallModalOpen}
         onClose={() => setIsFitCallModalOpen(false)}
+      />
+      <QuizModal 
+        isOpen={isQuizModalOpen}
+        onClose={() => setIsQuizModalOpen(false)}
+        onFitCallClick={handleFitCallClick}
+        onOpenDayClick={handleOpenDayClick}
       />
     </main>
   );

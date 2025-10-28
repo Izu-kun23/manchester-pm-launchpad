@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model QuizSubmission {
+  id         String   @id @default(cuid())
+  firstName  String
+  email      String
+  whatsapp   String
+  background String
+  answers    Json
+  scores     Json
+  resultType String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("quiz_submissions")
+}
+
+model Lead {
+  id         String   @id @default(cuid())
+  firstName  String
+  email      String
+  whatsapp   String
+  background String
+  source     String
+  status     String   @default("new")
+  notes      String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("leads")
+}

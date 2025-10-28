@@ -3587,13 +3587,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2
 ;
 const Investment = ({ onFitCallClick })=>{
     const includes = [
-        "Live training sessions",
+        "Live training",
         "Mentor feedback",
         "Portfolio review",
-        "Career assets pack",
-        "Tool access (Monday, Smartsheet)",
-        "Studio access",
-        "Lifetime community access"
+        "Career assets pack"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "py-20 bg-white",
@@ -3610,370 +3607,187 @@ const Investment = ({ onFitCallClick })=>{
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                "CLEAR INVESTING"
+                                "YOUR INVESTMENT"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                            lineNumber: 26,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-5xl font-bold mb-4",
-                            children: "Transparent pricing for all"
+                            children: "Your Investment"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                            lineNumber: 30,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-muted-foreground text-lg max-w-2xl mx-auto",
-                            children: "Special pricing for Manchester-Salford students"
-                        }, void 0, false, {
-                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                            lineNumber: 31,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                    lineNumber: 25,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-3 gap-6 max-w-5xl mx-auto",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 relative bg-white border-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-6",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold text-lg mb-2",
-                                            children: "Standard"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 40,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-muted-foreground mb-4",
-                                            children: "Great for career starters"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 41,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-4xl font-bold",
-                                                    children: "£1,800"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-muted-foreground",
-                                                    children: " /cohort"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 44,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 42,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                            variant: "outline",
-                                            className: "w-full rounded-full",
-                                            children: "Learn More"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 46,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-3",
-                                    children: includes.slice(0, 4).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start gap-2 text-sm",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                    className: "w-4 h-4 text-primary flex-shrink-0 mt-0.5"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 51,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: item
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 52,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, index, true, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 50,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)))
+                    className: "flex justify-center",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                        className: "p-8 relative bg-orange-50 text-orange-600 border-2 border-orange-500 max-w-2xl w-full",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute -top-3 left-1/2 -translate-x-1/2",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "px-4 py-1 bg-orange-500 rounded-full text-xs font-bold text-white",
+                                    children: "SALFORD OFFER"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
+                                    lineNumber: 33,
+                                    columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                            lineNumber: 38,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 relative bg-white text-orange-500 border-2 border-orange-500 scale-105",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute -top-3 left-1/2 -translate-x-1/2",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "px-4 py-1 bg-orange-500 rounded-full text-xs font-bold text-white",
-                                        children: "SALFORD OFFER"
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                lineNumber: 32,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mb-6 text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-bold text-2xl mb-2 text-orange-600",
+                                        children: "Salford Offer: £1,250"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 38,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-orange-500 mb-4",
+                                        children: [
+                                            "(Standard ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "line-through",
+                                                children: "£1,800"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                                lineNumber: 39,
+                                                columnNumber: 69
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            ")"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                        lineNumber: 39,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mb-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-orange-600 mb-2",
+                                                children: "Flexible Instalments from £99/month"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                                lineNumber: 41,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-orange-600",
+                                                children: "2–3 Part Plans Available"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                                lineNumber: 42,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                        lineNumber: 40,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                        className: "w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full",
+                                        onClick: onFitCallClick,
+                                        children: "Book a 10‑min Fit Call →"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                        lineNumber: 44,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 60,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-6",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold text-lg mb-2",
-                                            children: "Graduate Special"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 66,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-orange-500/80 mb-4",
-                                            children: "Best value for local students"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 67,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-4xl font-bold",
-                                                    children: "£1,250"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 69,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-orange-500/80",
-                                                    children: " /cohort"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 70,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 68,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                            className: "w-full bg-orange-500 hover:bg-orange-500/90 text-white rounded-full",
-                                            onClick: onFitCallClick,
-                                            children: "Get Started"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 72,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 65,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-3",
-                                    children: includes.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start gap-2 text-sm",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                    className: "w-4 h-4 text-orange-500 flex-shrink-0 mt-0.5"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 82,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-orange-500/90",
-                                                    children: item
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 83,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, index, true, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 81,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)))
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 79,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                            lineNumber: 59,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 relative bg-white border-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-6",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-bold text-lg mb-2",
-                                            children: "1-on-1 Premium"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 92,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-muted-foreground mb-4",
-                                            children: "Private mentorship track"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 93,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mb-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-4xl font-bold",
-                                                    children: "£2,999"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 95,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-muted-foreground",
-                                                    children: " /program"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 96,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                            variant: "outline",
-                                            className: "w-full rounded-full",
-                                            children: "Contact Us"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 98,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 91,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-3",
-                                    children: [
-                                        ...includes,
-                                        "Private sessions",
-                                        "Career coaching"
-                                    ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start gap-2 text-sm",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
-                                                    className: "w-4 h-4 text-primary flex-shrink-0 mt-0.5"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 103,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: item
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                                    lineNumber: 104,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, index, true, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                            lineNumber: 102,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)))
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                                    lineNumber: 100,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                            lineNumber: 90,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-orange-600 mb-3 font-medium",
+                                        children: "Includes:"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "grid grid-cols-2 gap-3",
+                                        children: includes.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-start gap-2 text-sm",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
+                                                        className: "w-4 h-4 text-orange-500 flex-shrink-0 mt-0.5"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                                        lineNumber: 56,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-orange-600",
+                                                        children: item
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                                        lineNumber: 57,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, index, true, {
+                                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                                lineNumber: 55,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)))
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                                lineNumber: 51,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
+                        lineNumber: 31,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-                    lineNumber: 36,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-            lineNumber: 24,
+            lineNumber: 21,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/Investment.tsx",
-        lineNumber: 23,
+        lineNumber: 20,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -4612,68 +4426,118 @@ __turbopack_context__.s([
     ()=>FitCallModal
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ui/dialog.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 ;
 ;
 const FitCallModal = ({ isOpen, onClose })=>{
+    _s();
+    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
+    const handleOpenChange = (open)=>{
+        if (!open) {
+            onClose();
+        }
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Dialog"], {
         open: isOpen,
-        onOpenChange: onClose,
+        onOpenChange: handleOpenChange,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DialogContent"], {
-            className: "max-w-4xl h-[80vh]",
+            className: "max-w-4xl w-[95vw] h-[85vh] p-0",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DialogHeader"], {
+                    className: "p-6 pb-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DialogTitle"], {
                             children: "Book Your 10-Minute Fit Call"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-                            lineNumber: 19,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DialogDescription"], {
                             children: "Choose a time that works best for you"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-                            lineNumber: 20,
+                            lineNumber: 29,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-                    lineNumber: 18,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex-1 w-full h-full",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                        src: "https://calendly.com/captainjon/projectcareer-cohort",
-                        width: "100%",
-                        height: "100%",
-                        frameBorder: "0",
-                        title: "Book Fit Call"
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-                        lineNumber: 25,
-                        columnNumber: 11
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
+                    className: "relative flex-1 px-6 pb-6",
+                    children: [
+                        isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0 flex items-center justify-center bg-gray-50 rounded-lg",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-2"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
+                                        lineNumber: 37,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-600",
+                                        children: "Loading calendar..."
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
+                                        lineNumber: 38,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
+                                lineNumber: 36,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
+                            lineNumber: 35,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                            src: "https://calendly.com/captainjon/projectcareer-cohort",
+                            width: "100%",
+                            height: "100%",
+                            frameBorder: "0",
+                            title: "Book Fit Call",
+                            className: "rounded-lg",
+                            onLoad: ()=>setIsLoading(false),
+                            style: {
+                                minHeight: '500px'
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
+                            lineNumber: 42,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-                    lineNumber: 24,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-            lineNumber: 17,
+            lineNumber: 26,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/FitCallModal.tsx",
-        lineNumber: 16,
+        lineNumber: 25,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
+_s(FitCallModal, "5S7VQ8+9ArWv2AFPIfnY+LwrHeg=");
 _c = FitCallModal;
 var _c;
 __turbopack_context__.k.register(_c, "FitCallModal");
