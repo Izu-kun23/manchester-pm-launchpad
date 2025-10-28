@@ -23,10 +23,10 @@ export const Testimonial = () => {
     <section className="py-20">
       <div className="container px-4">
         <div className="text-center mb-12">
-          <p className="text-primary font-semibold mb-4 tracking-wider text-sm flex items-center gap-2">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-semibold text-primary mb-6">
             <Star className="w-4 h-4" />
             SUCCESS STORIES
-          </p>
+          </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-2">Join over 67+ happy students</h2>
         </div>
         

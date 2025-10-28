@@ -19,7 +19,7 @@ export const StickyFooter = ({ onFitCallClick }: StickyFooterProps) => {
           size="lg"
           variant="secondary"
           onClick={onFitCallClick}
-          className="whitespace-nowrap"
+          className="whitespace-nowrap rounded-full"
         >
           Book a 10-min Fit Call <ArrowRight className="ml-2" />
         </Button>

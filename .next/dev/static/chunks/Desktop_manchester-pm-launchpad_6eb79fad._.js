@@ -75,189 +75,110 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/components/ui/button.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-client] (ecmascript) <export default as GraduationCap>");
 'use client';
 ;
 ;
 ;
 const Hero = ({ onFitCallClick, onFitQuizClick })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative py-20 md:py-32 overflow-hidden bg-gradient-to-b from-white to-gray-section",
+        className: "relative py-24 md:py-32 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-6xl mx-auto",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center mb-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "inline-flex px-4 py-1.5 bg-primary/10 rounded-full text-sm font-semibold text-primary mb-6 items-center gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"], {
-                                        className: "w-4 h-4"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    "SALFORD PM BOOTCAMP"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight max-w-4xl mx-auto",
-                                children: [
-                                    "Build a ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-primary",
-                                        children: "Project-Management Portfolio"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 23
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    " Before Your Next Interview"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                lineNumber: 21,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto",
-                                children: "Employers hire proof, not just degrees. In 4 weeks you'll create real PM documents, learn real tools, and stand out locally."
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                lineNumber: 24,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col sm:flex-row gap-4 justify-center mb-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        size: "lg",
-                                        className: "text-base px-8 py-6 shadow-lg transition-all rounded-full",
-                                        onClick: onFitCallClick,
-                                        children: [
-                                            "Start with a 10-min Fit Call ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                                className: "ml-2"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                                lineNumber: 34,
-                                                columnNumber: 46
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                        lineNumber: 29,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        size: "lg",
-                                        variant: "outline",
-                                        className: "text-base px-8 py-6 border-2 rounded-full",
-                                        onClick: onFitQuizClick,
-                                        children: "Take the 5-min Fit Quiz"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                        lineNumber: 36,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                lineNumber: 28,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-muted-foreground flex items-center justify-center gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                        className: "w-4 h-4"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                        lineNumber: 47,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    "No pressure — we'll advise if it's not a fit."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                lineNumber: 46,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                        lineNumber: 16,
-                        columnNumber: 11
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-16 flex flex-wrap items-center justify-center gap-8 text-muted-foreground",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center gap-2",
+                className: "max-w-5xl mx-auto",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "inline-flex px-3 py-1 bg-primary/5 rounded-full text-xs font-medium text-primary mb-8",
+                            children: "SALFORD PM BOOTCAMP"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
+                            lineNumber: 17,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex -space-x-2",
+                                "Build a ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-primary",
+                                    children: "Project-Management Portfolio"
+                                }, void 0, false, {
+                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
+                                    lineNumber: 21,
+                                    columnNumber: 23
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                " Before Your Next Interview"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
+                            lineNumber: 20,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-lg text-muted-foreground mb-12 leading-relaxed max-w-2xl mx-auto",
+                            children: "Employers hire proof, not just degrees. In 4 weeks you'll create real PM documents, learn real tools, and stand out locally."
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
+                            lineNumber: 23,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col sm:flex-row gap-3 justify-center mb-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                    size: "lg",
+                                    className: "px-8 py-3 rounded-full",
+                                    onClick: onFitCallClick,
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-8 h-8 rounded-full bg-primary/20 border-2 border-white flex items-center justify-center text-xs font-bold",
-                                            children: "S"
+                                        "Start with a 10-min Fit Call ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                            className: "ml-2 w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                            lineNumber: 56,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-8 h-8 rounded-full bg-primary/30 border-2 border-white flex items-center justify-center text-xs font-bold",
-                                            children: "M"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                            lineNumber: 57,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-8 h-8 rounded-full bg-primary/40 border-2 border-white flex items-center justify-center text-xs font-bold",
-                                            children: "+"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                            lineNumber: 58,
-                                            columnNumber: 17
+                                            lineNumber: 33,
+                                            columnNumber: 46
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                    lineNumber: 55,
+                                    lineNumber: 28,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-sm font-medium",
-                                    children: "67 Grads since 2021"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                    size: "lg",
+                                    variant: "outline",
+                                    className: "px-8 py-3 rounded-full",
+                                    onClick: onFitQuizClick,
+                                    children: "Take the 5-min Fit Quiz"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 35,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                            lineNumber: 54,
+                            lineNumber: 27,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-sm text-muted-foreground",
+                            children: "No pressure — we'll advise if it's not a fit."
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
+                            lineNumber: 45,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
-                        lineNumber: 53,
-                        columnNumber: 11
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
+                    lineNumber: 16,
+                    columnNumber: 11
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
                 fileName: "[project]/Desktop/manchester-pm-launchpad/components/Hero.tsx",
                 lineNumber: 15,
                 columnNumber: 9
@@ -309,7 +230,7 @@ const StatsBar = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-16 border-y border-border",
+        className: "py-16",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -318,7 +239,7 @@ const StatsBar = ()=>{
                         className: "text-center",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-4xl md:text-5xl font-bold text-foreground mb-2",
+                                className: "text-2xl md:text-3xl font-bold text-foreground mb-2",
                                 children: stat.value
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/manchester-pm-launchpad/components/StatsBar.tsx",
@@ -326,7 +247,7 @@ const StatsBar = ()=>{
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-sm text-muted-foreground",
+                                className: "text-xs text-muted-foreground",
                                 children: stat.label
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/manchester-pm-launchpad/components/StatsBar.tsx",
@@ -406,7 +327,7 @@ const TrustStrip = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-12 bg-gray-section border-y border-border",
+        className: "py-12 bg-white border-y border-border",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
@@ -798,8 +719,8 @@ const WhatYouLearn = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur rounded-full text-white font-medium",
-                            children: "🗓 15 Nov – 15 Dec · Evenings · Replay access"
+                            className: "inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full text-orange-500 font-medium",
+                            children: "15 Nov – 15 Dec · Evenings · Replay access"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatYouLearn.tsx",
                             lineNumber: 35,
@@ -812,14 +733,14 @@ const WhatYouLearn = ()=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto",
+                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 max-w-7xl mx-auto",
                     children: learnings.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 bg-white/10 backdrop-blur border-white/20 hover:bg-white/20 transition-all text-white",
+                            className: "p-6 bg-white text-black transition-all",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-16 h-16 rounded-xl bg-white/20 flex items-center justify-center mb-4",
+                                    className: "w-16 h-16 rounded-xl bg-orange-100 flex items-center justify-center mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
-                                        className: "w-8 h-8 text-white"
+                                        className: "w-8 h-8 text-orange-500"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatYouLearn.tsx",
                                         lineNumber: 44,
@@ -839,7 +760,7 @@ const WhatYouLearn = ()=>{
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-white/80 leading-relaxed",
+                                    className: "text-gray-600 leading-relaxed",
                                     children: item.description
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatYouLearn.tsx",
@@ -884,10 +805,22 @@ __turbopack_context__.s([
     ()=>Timeline
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/components/ui/card.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/framer-motion/dist/es/utils/use-in-view.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
 ;
 ;
 const Timeline = ()=>{
+    _s();
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const isInView = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])(ref, {
+        once: false,
+        margin: "-200px"
+    });
     const weeks = [
         {
             week: 1,
@@ -931,108 +864,250 @@ const Timeline = ()=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-4xl md:text-5xl font-bold text-center mb-4",
-                    children: "Week-by-Week Timeline"
-                }, void 0, false, {
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0,
+                        y: 30
+                    },
+                    animate: isInView ? {
+                        opacity: 1,
+                        y: 0
+                    } : {
+                        opacity: 0,
+                        y: 30
+                    },
+                    transition: {
+                        duration: 0.8,
+                        ease: "easeOut"
+                    },
+                    className: "text-center mb-16",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl md:text-4xl font-bold mb-4",
+                            children: "Week-by-Week Timeline"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                            lineNumber: 60,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-muted-foreground max-w-xl mx-auto",
+                            children: "A structured journey from fundamentals to client-ready delivery"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                            lineNumber: 61,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                    lineNumber: 46,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center text-muted-foreground mb-12 text-lg max-w-2xl mx-auto",
-                    children: "A structured journey from fundamentals to client-ready delivery"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                    lineNumber: 47,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto",
-                    children: weeks.map((week, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 relative overflow-hidden transition-all",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary to-primary/50"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                    lineNumber: 54,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-sm font-bold text-primary mb-2",
-                                    children: [
-                                        "Week ",
-                                        week.week
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                    lineNumber: 55,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-xl font-bold mb-4",
-                                    children: week.title
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                    lineNumber: 56,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "space-y-2",
-                                    children: week.points.map((point, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            className: "flex items-start gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-primary mt-1",
-                                                    children: "•"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                                    lineNumber: 60,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-muted-foreground",
-                                                    children: point
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                                    lineNumber: 61,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, i, true, {
-                                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                            lineNumber: 59,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)))
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                                    lineNumber: 57,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, index, true, {
-                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                            lineNumber: 53,
-                            columnNumber: 13
-                        }, ("TURBOPACK compile-time value", void 0)))
+                    className: "max-w-4xl mx-auto",
+                    ref: ref,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                className: "absolute left-8 top-0 w-0.5 bg-gradient-to-b from-primary to-primary/30 hidden md:block",
+                                initial: {
+                                    height: 0
+                                },
+                                animate: isInView ? {
+                                    height: "100%"
+                                } : {
+                                    height: 0
+                                },
+                                transition: {
+                                    duration: 1.5,
+                                    delay: 0.3,
+                                    ease: "easeInOut"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                lineNumber: 69,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-12",
+                                children: weeks.map((week, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                        className: "relative flex items-start gap-8 md:gap-8",
+                                        initial: {
+                                            opacity: 0,
+                                            x: -80
+                                        },
+                                        animate: isInView ? {
+                                            opacity: 1,
+                                            x: 0
+                                        } : {
+                                            opacity: 0,
+                                            x: -80
+                                        },
+                                        transition: {
+                                            duration: 0.7,
+                                            delay: 0.6 + index * 0.3,
+                                            ease: "easeOut"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                                className: "flex-shrink-0 w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white font-bold text-lg relative z-10 hidden md:flex",
+                                                initial: {
+                                                    scale: 0,
+                                                    rotate: -180
+                                                },
+                                                animate: isInView ? {
+                                                    scale: 1,
+                                                    rotate: 0
+                                                } : {
+                                                    scale: 0,
+                                                    rotate: -180
+                                                },
+                                                transition: {
+                                                    duration: 0.6,
+                                                    delay: 0.8 + index * 0.3,
+                                                    type: "spring",
+                                                    stiffness: 200,
+                                                    damping: 15
+                                                },
+                                                children: week.week
+                                            }, void 0, false, {
+                                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                lineNumber: 90,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                                className: "flex-1 bg-white border border-border rounded-xl p-6 shadow-sm",
+                                                initial: {
+                                                    opacity: 0,
+                                                    y: 30
+                                                },
+                                                animate: isInView ? {
+                                                    opacity: 1,
+                                                    y: 0
+                                                } : {
+                                                    opacity: 0,
+                                                    y: 30
+                                                },
+                                                transition: {
+                                                    duration: 0.6,
+                                                    delay: 1.0 + index * 0.3,
+                                                    ease: "easeOut"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "text-sm font-medium text-primary mb-2",
+                                                        children: [
+                                                            "Week ",
+                                                            week.week
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                        lineNumber: 116,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-lg font-semibold mb-4",
+                                                        children: week.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                        lineNumber: 117,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                        className: "space-y-2",
+                                                        children: week.points.map((point, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].li, {
+                                                                className: "flex items-start gap-3 text-sm",
+                                                                initial: {
+                                                                    opacity: 0,
+                                                                    x: -20
+                                                                },
+                                                                animate: isInView ? {
+                                                                    opacity: 1,
+                                                                    x: 0
+                                                                } : {
+                                                                    opacity: 0,
+                                                                    x: -20
+                                                                },
+                                                                transition: {
+                                                                    duration: 0.4,
+                                                                    delay: 1.2 + index * 0.3 + i * 0.1,
+                                                                    ease: "easeOut"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "text-primary mt-1",
+                                                                        children: "•"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                                        lineNumber: 131,
+                                                                        columnNumber: 27
+                                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "text-muted-foreground",
+                                                                        children: point
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                                        lineNumber: 132,
+                                                                        columnNumber: 27
+                                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                                ]
+                                                            }, i, true, {
+                                                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                                lineNumber: 120,
+                                                                columnNumber: 25
+                                                            }, ("TURBOPACK compile-time value", void 0)))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                        lineNumber: 118,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                                lineNumber: 106,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, index, true, {
+                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)))
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                                lineNumber: 76,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
+                        lineNumber: 67,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-                    lineNumber: 51,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-            lineNumber: 45,
+            lineNumber: 53,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/manchester-pm-launchpad/components/Timeline.tsx",
-        lineNumber: 44,
+        lineNumber: 52,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
+_s(Timeline, "DljcBprJKYjULUac3YKdUV9OwZQ=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$in$2d$view$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+    ];
+});
 _c = Timeline;
 var _c;
 __turbopack_context__.k.register(_c, "Timeline");
@@ -1241,7 +1316,7 @@ const PortfolioGallery = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-gray-section",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
@@ -1422,7 +1497,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$
 ;
 const TriTaster = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-gray-section",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -1556,7 +1631,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$
 ;
 const VisitUs = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-gray-section",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
@@ -1800,8 +1875,8 @@ const Testimonial = ()=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center mb-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-primary font-semibold mb-4 tracking-wider text-sm flex items-center gap-2",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-semibold text-primary mb-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
                                     className: "w-4 h-4"
@@ -1982,7 +2057,7 @@ const HowItWorks = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-gray-section",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
@@ -2005,27 +2080,20 @@ const HowItWorks = ()=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto",
                     children: steps.map((step, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 text-center relative",
+                            className: "p-6 text-center",
                             children: [
-                                index < steps.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-primary/30 z-10"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/HowItWorks.tsx",
-                                    lineNumber: 40,
-                                    columnNumber: 17
-                                }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(step.icon, {
                                         className: "w-8 h-8 text-primary"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/manchester-pm-launchpad/components/HowItWorks.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 40,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/HowItWorks.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 39,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2036,7 +2104,7 @@ const HowItWorks = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/HowItWorks.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 42,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2044,7 +2112,7 @@ const HowItWorks = ()=>{
                                     children: step.title
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/HowItWorks.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 43,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2052,7 +2120,7 @@ const HowItWorks = ()=>{
                                     children: step.description
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/HowItWorks.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 44,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
@@ -2113,15 +2181,15 @@ const Investment = ({ onFitCallClick })=>{
         "Lifetime community access"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-gray-section",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center mb-12",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-primary font-semibold mb-4 tracking-wider text-sm flex items-center gap-2",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-semibold text-primary mb-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
                                     className: "w-4 h-4"
@@ -2541,7 +2609,7 @@ const LifetimeSupport = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-gray-section",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
@@ -2729,6 +2797,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/components/ui/accordion.tsx [app-client] (ecmascript)");
+'use client';
 ;
 ;
 const FAQ = ()=>{
@@ -2751,69 +2820,95 @@ const FAQ = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20",
+        className: "py-20 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-4xl md:text-5xl font-bold text-center mb-4",
-                    children: "Frequently Asked Questions"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center text-muted-foreground mb-12 text-lg max-w-2xl mx-auto",
-                    children: "Everything you need to know"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Accordion"], {
-                    type: "single",
-                    collapsible: true,
-                    className: "max-w-3xl mx-auto",
-                    children: faqs.map((faq, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
-                            value: `item-${index}`,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
-                                    className: "text-left text-lg font-semibold",
-                                    children: faq.question
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
-                                    className: "text-muted-foreground leading-relaxed",
-                                    children: faq.answer
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-                                    lineNumber: 42,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, index, true, {
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center mb-16",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "inline-flex px-3 py-1 bg-primary/5 rounded-full text-xs font-medium text-primary mb-6",
+                            children: "FAQ"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl md:text-4xl font-bold mb-4",
+                            children: "Frequently Asked Questions"
+                        }, void 0, false, {
                             fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
                             lineNumber: 38,
-                            columnNumber: 13
-                        }, ("TURBOPACK compile-time value", void 0)))
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-muted-foreground max-w-xl mx-auto",
+                            children: "Everything you need to know about our PM Bootcamp"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                            lineNumber: 39,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-3xl mx-auto",
+                    suppressHydrationWarning: true,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Accordion"], {
+                        type: "single",
+                        collapsible: true,
+                        className: "space-y-3",
+                        children: faqs.map((faq, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                                value: `item-${index}`,
+                                className: "border border-border rounded-xl px-6",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                        className: "text-left font-medium py-5 hover:no-underline [&[data-state=open]]:text-primary",
+                                        children: faq.question
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                        className: "text-muted-foreground leading-relaxed pb-5 text-sm",
+                                        children: faq.answer
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                                        lineNumber: 55,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, index, true, {
+                                fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                                lineNumber: 47,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0)))
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
+                        lineNumber: 45,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-                    lineNumber: 36,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-            lineNumber: 30,
+            lineNumber: 33,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/manchester-pm-launchpad/components/FAQ.tsx",
-        lineNumber: 29,
+        lineNumber: 32,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2832,32 +2927,13 @@ __turbopack_context__.s([
     ()=>StickyHeader
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/manchester-pm-launchpad/components/ui/button.tsx [app-client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
 'use client';
 ;
 ;
 const StickyHeader = ({ onFitCallClick, onFitQuizClick })=>{
-    _s();
-    const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "StickyHeader.useEffect": ()=>{
-            const handleScroll = {
-                "StickyHeader.useEffect.handleScroll": ()=>{
-                    setIsVisible(window.scrollY > 500);
-                }
-            }["StickyHeader.useEffect.handleScroll"];
-            window.addEventListener("scroll", handleScroll);
-            return ({
-                "StickyHeader.useEffect": ()=>window.removeEventListener("scroll", handleScroll)
-            })["StickyHeader.useEffect"];
-        }
-    }["StickyHeader.useEffect"], []);
-    if (!isVisible) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm",
+        className: "bg-background/95 backdrop-blur-sm",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container px-4 py-3 flex items-center justify-between",
             children: [
@@ -2867,7 +2943,7 @@ const StickyHeader = ({ onFitCallClick, onFitQuizClick })=>{
                     className: "h-8"
                 }, void 0, false, {
                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/StickyHeader.tsx",
-                    lineNumber: 28,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2877,41 +2953,41 @@ const StickyHeader = ({ onFitCallClick, onFitQuizClick })=>{
                             size: "sm",
                             variant: "outline",
                             onClick: onFitQuizClick,
-                            className: "hidden sm:inline-flex",
+                            className: "hidden sm:inline-flex rounded-full",
                             children: "Fit Quiz"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/manchester-pm-launchpad/components/StickyHeader.tsx",
-                            lineNumber: 30,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                             size: "sm",
                             onClick: onFitCallClick,
+                            className: "rounded-full",
                             children: "Book Fit Call"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/manchester-pm-launchpad/components/StickyHeader.tsx",
-                            lineNumber: 38,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/manchester-pm-launchpad/components/StickyHeader.tsx",
-                    lineNumber: 29,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/manchester-pm-launchpad/components/StickyHeader.tsx",
-            lineNumber: 27,
+            lineNumber: 13,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/manchester-pm-launchpad/components/StickyHeader.tsx",
-        lineNumber: 26,
+        lineNumber: 12,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(StickyHeader, "J3yJOyGdBT4L7hs1p1XQYVGMdrY=");
 _c = StickyHeader;
 var _c;
 __turbopack_context__.k.register(_c, "StickyHeader");
@@ -2968,7 +3044,7 @@ const StickyFooter = ({ onFitCallClick })=>{
                     size: "lg",
                     variant: "secondary",
                     onClick: onFitCallClick,
-                    className: "whitespace-nowrap",
+                    className: "whitespace-nowrap rounded-full",
                     children: [
                         "Book a 10-min Fit Call ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -3022,19 +3098,45 @@ const WhatsAppButton = ()=>{
         // Replace with actual WhatsApp number
         window.open("https://wa.me/447123456789?text=Hi! I'm interested in the PM Bootcamp", "_blank");
     };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-        size: "lg",
-        onClick: handleWhatsAppClick,
-        className: "fixed bottom-24 right-6 z-50 rounded-full w-16 h-16 p-0 shadow-xl transition-all",
-        "aria-label": "Chat on WhatsApp",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
-            className: "w-7 h-7"
-        }, void 0, false, {
-            fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatsAppButton.tsx",
-            lineNumber: 19,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "fixed bottom-24 right-6 z-50 group",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-full right-0 mb-2 px-3 py-2 bg-gray-800 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap",
+                children: [
+                    "Message us on WhatsApp",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-full right-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-800"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatsAppButton.tsx",
+                        lineNumber: 17,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatsAppButton.tsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                size: "lg",
+                onClick: handleWhatsAppClick,
+                className: "rounded-full w-16 h-16 p-0 shadow-xl transition-all bg-green-500 hover:bg-green-600",
+                "aria-label": "Chat on WhatsApp",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
+                    className: "w-7 h-7 text-white"
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatsAppButton.tsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatsAppButton.tsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
         fileName: "[project]/Desktop/manchester-pm-launchpad/components/WhatsAppButton.tsx",
         lineNumber: 13,
         columnNumber: 5

@@ -1,11 +1,21 @@
+'use client';
+
+import { useState, useEffect } from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { HelpCircle } from "lucide-react";
 
 export const FAQ = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const faqs = [
     {
       question: "Is this recognised by employers?",
@@ -26,25 +36,49 @@ export const FAQ = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-white">
       <div className="container px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Frequently Asked Questions</h2>
-        <p className="text-center text-muted-foreground mb-12 text-lg max-w-2xl mx-auto">
-          Everything you need to know
-        </p>
+        <div className="text-center mb-16">
+          <div className="inline-flex px-3 py-1 bg-primary/5 rounded-full text-xs font-medium text-primary mb-6">
+            FAQ
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+          <p className="text-muted-foreground max-w-xl mx-auto">
+            Everything you need to know about our PM Bootcamp
+          </p>
+        </div>
 
-        <Accordion type="single" collapsible className="max-w-3xl mx-auto">
-          {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left text-lg font-semibold">
-                {faq.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed">
-                {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+        <div className="max-w-3xl mx-auto">
+          {!isMounted ? (
+            <div className="space-y-3">
+              {faqs.map((faq, index) => (
+                <div key={`faq-${index}`} className="border border-border rounded-xl px-6">
+                  <div className="flex items-center justify-between py-5 font-medium">
+                    {faq.question}
+                    <div className="h-4 w-4" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <Accordion type="single" collapsible className="space-y-3">
+              {faqs.map((faq, index) => (
+                <AccordionItem
+                  key={`faq-${index}`}
+                  value={`faq-${index}`}
+                  className="border border-border rounded-xl px-6"
+                >
+                  <AccordionTrigger className="text-left font-medium py-5 hover:no-underline [&[data-state=open]]:text-primary">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground leading-relaxed pb-5 text-sm">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          )}
+        </div>
       </div>
     </section>
   );

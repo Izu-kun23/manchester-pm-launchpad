@@ -26,7 +26,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-section">
+    <section className="py-20 bg-white">
       <div className="container px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">How It Works</h2>
         <p className="text-center text-muted-foreground mb-12 text-lg max-w-2xl mx-auto">
@@ -35,10 +35,7 @@ export const HowItWorks = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {steps.map((step, index) => (
-            <Card key={index} className="p-6 text-center relative">
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-primary/30 z-10" />
-              )}
+            <Card key={index} className="p-6 text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <step.icon className="w-8 h-8 text-primary" />
               </div>

@@ -11,7 +11,7 @@ export const TrustStrip = () => {
   ];
 
   return (
-    <section className="py-12 bg-gray-section border-y border-border">
+    <section className="py-12 bg-white border-y border-border">
       <div className="container px-4">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {features.map((feature, index) => (

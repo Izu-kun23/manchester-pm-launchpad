@@ -26,7 +26,7 @@ export const LifetimeSupport = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-section">
+    <section className="py-20 bg-white">
       <div className="container px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Lifetime Support & Ecosystem</h2>
         <p className="text-center text-muted-foreground mb-12 text-lg max-w-2xl mx-auto">

@@ -22,18 +22,13 @@ export const FitCallModal = ({ isOpen, onClose }: FitCallModalProps) => {
           </DialogDescription>
         </DialogHeader>
         <div className="flex-1 w-full h-full">
-          {/* Replace with your actual Calendly link */}
           <iframe
-            src="https://calendly.com/your-link-here"
+            src="https://calendly.com/captainjon/projectcareer-cohort"
             width="100%"
             height="100%"
             frameBorder="0"
             title="Book Fit Call"
           />
-          <div className="text-center p-8 text-muted-foreground">
-            <p>Connect your Calendly account or replace this with your booking system.</p>
-            <p className="text-sm mt-2">Update the src URL in FitCallModal.tsx</p>
-          </div>
         </div>
       </DialogContent>
     </Dialog>

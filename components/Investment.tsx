@@ -20,13 +20,13 @@ export const Investment = ({ onFitCallClick }: InvestmentProps) => {
   ];
 
   return (
-    <section className="py-20 bg-gray-section">
+    <section className="py-20 bg-white">
       <div className="container px-4">
         <div className="text-center mb-12">
-          <p className="text-primary font-semibold mb-4 tracking-wider text-sm flex items-center gap-2">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm font-semibold text-primary mb-6">
             <DollarSign className="w-4 h-4" />
             CLEAR INVESTING
-          </p>
+          </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Transparent pricing for all</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Special pricing for Manchester-Salford students
