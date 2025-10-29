@@ -10,25 +10,27 @@ export const PortfolioGallery = () => {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          <div className="aspect-video">
-            <video
-              className="w-full h-full object-contain rounded-lg shadow-lg bg-black"
-              controls
-              preload="metadata"
-            >
-              <source src="/assets/vid1.MP4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="aspect-video bg-gray-100 rounded-lg shadow-lg flex items-center justify-center">
+            <div className="text-center p-8">
+              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M8 5v10l8-5-8-5z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Student Testimonial 1</h3>
+              <p className="text-gray-600">Video coming soon</p>
+            </div>
           </div>
-          <div className="aspect-video">
-            <video
-              className="w-full h-full object-contain rounded-lg shadow-lg bg-black"
-              controls
-              preload="metadata"
-            >
-              <source src="/assets/vid2.MP4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="aspect-video bg-gray-100 rounded-lg shadow-lg flex items-center justify-center">
+            <div className="text-center p-8">
+              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M8 5v10l8-5-8-5z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Student Testimonial 2</h3>
+              <p className="text-gray-600">Video coming soon</p>
+            </div>
           </div>
         </div>
       </div>
