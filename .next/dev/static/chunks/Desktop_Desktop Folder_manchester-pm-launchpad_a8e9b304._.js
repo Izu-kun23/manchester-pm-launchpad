@@ -1151,49 +1151,21 @@ const PortfolioGallery = ()=>{
                     className: "grid md:grid-cols-2 gap-8 max-w-6xl mx-auto",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "aspect-video bg-gray-100 rounded-lg shadow-lg flex items-center justify-center",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center p-8",
+                            className: "aspect-video",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                className: "w-full h-full object-contain rounded-lg shadow-lg bg-black",
+                                controls: true,
+                                preload: "metadata",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            className: "w-8 h-8 text-white",
-                                            fill: "currentColor",
-                                            viewBox: "0 0 20 20",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                d: "M8 5v10l8-5-8-5z"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                                lineNumber: 17,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                        src: "/assets/vid1.MP4",
+                                        type: "video/mp4"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                        lineNumber: 15,
+                                        lineNumber: 19,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold mb-2",
-                                        children: "Student Testimonial 1"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-600",
-                                        children: "Video coming soon"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
+                                    "Your browser does not support the video tag."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
@@ -1206,58 +1178,30 @@ const PortfolioGallery = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "aspect-video bg-gray-100 rounded-lg shadow-lg flex items-center justify-center",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center p-8",
+                            className: "aspect-video",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                className: "w-full h-full object-contain rounded-lg shadow-lg bg-black",
+                                controls: true,
+                                preload: "metadata",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            className: "w-8 h-8 text-white",
-                                            fill: "currentColor",
-                                            viewBox: "0 0 20 20",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                d: "M8 5v10l8-5-8-5z"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                                lineNumber: 28,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                            lineNumber: 27,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                        src: "/assets/vid2.MP4",
+                                        type: "video/mp4"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold mb-2",
-                                        children: "Student Testimonial 2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                        lineNumber: 31,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-600",
-                                        children: "Video coming soon"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                        lineNumber: 32,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
+                                    "Your browser does not support the video tag."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                                lineNumber: 25,
+                                lineNumber: 24,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/PortfolioGallery.tsx",
-                            lineNumber: 24,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
