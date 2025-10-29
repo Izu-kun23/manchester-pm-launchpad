@@ -421,6 +421,13 @@ __turbopack_async_result__();
 async function addSubscriberToMailerLite(email, firstName, groupId) {
     const apiKey = process.env.MAILERLITE_API_KEY;
     const defaultGroupId = process.env.MAILERLITE_GROUP_ID || groupId;
+    console.log('MailerLite integration attempt:', {
+        email,
+        firstName,
+        hasApiKey: !!apiKey,
+        hasGroupId: !!defaultGroupId,
+        groupId: defaultGroupId
+    });
     if (!apiKey) {
         console.error('MailerLite API key is not configured');
         return {
@@ -455,19 +462,28 @@ async function addSubscriberToMailerLite(email, firstName, groupId) {
             body: JSON.stringify(subscriber)
         });
         const data = await response.json();
+        console.log('MailerLite API response:', {
+            status: response.status,
+            ok: response.ok,
+            data
+        });
         if (!response.ok) {
             // Handle existing subscriber (409) or other errors
             if (response.status === 409) {
+                console.log('Subscriber already exists, attempting to add to group...');
                 // Subscriber already exists, try to update/add to group
                 return await updateSubscriberGroup(email, firstName, defaultGroupId);
             }
             const errorMessage = data.message || data.errors?.[0]?.message || `HTTP ${response.status}`;
-            console.error('MailerLite API error:', errorMessage);
+            console.error('MailerLite API error:', errorMessage, {
+                response: data
+            });
             return {
                 success: false,
                 error: errorMessage
             };
         }
+        console.log('MailerLite subscriber added successfully');
         return {
             success: true
         };
@@ -617,11 +633,19 @@ async function POST(request) {
             }
         });
         // Add subscriber to MailerLite (non-blocking - don't fail if this fails)
+        let mailerLiteSuccess = false;
         try {
+            console.log('Attempting to add subscriber to MailerLite...', {
+                email,
+                firstName
+            });
             const mailerLiteResult = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$lib$2f$mailerlite$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["addSubscriberToMailerLite"])(email, firstName);
+            mailerLiteSuccess = mailerLiteResult.success;
             if (!mailerLiteResult.success) {
-                console.warn('MailerLite subscription failed:', mailerLiteResult.error);
+                console.error('MailerLite subscription failed:', mailerLiteResult.error);
             // Continue despite MailerLite failure - database save was successful
+            } else {
+                console.log('MailerLite subscription successful');
             }
         } catch (mailerLiteError) {
             console.error('MailerLite integration error:', mailerLiteError);
@@ -630,7 +654,8 @@ async function POST(request) {
         return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,
             quizSubmissionId: quizSubmission.id,
-            leadId: lead.id
+            leadId: lead.id,
+            mailerLiteSuccess
         });
     } catch (error) {
         console.error('Error saving quiz data:', error);

@@ -1653,7 +1653,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/check.js [app-ssr] (ecmascript) <export default as Check>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-ssr] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clipboard$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clipboard$3e$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/clipboard.js [app-ssr] (ecmascript) <export default as Clipboard>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$target$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Target$3e$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/target.js [app-ssr] (ecmascript) <export default as Target>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/node_modules/lucide-react/dist/esm/icons/calendar.js [app-ssr] (ecmascript) <export default as Calendar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$hooks$2f$use$2d$toast$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Desktop Folder/manchester-pm-launchpad/hooks/use-toast.ts [app-ssr] (ecmascript)");
 'use client';
@@ -2122,17 +2121,8 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "inline-flex items-center gap-2 px-4 py-2 bg-orange-500 rounded-full text-sm font-bold text-white mb-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$target$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Target$3e$__["Target"], {
-                                        className: "w-4 h-4"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 284,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    "QUIZ RESULTS"
-                                ]
-                            }, void 0, true, {
+                                children: "QUIZ RESULTS"
+                            }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
                                 lineNumber: 283,
                                 columnNumber: 13
@@ -2142,7 +2132,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: result.headline
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 287,
+                                lineNumber: 286,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2150,7 +2140,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: result.subtext
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 288,
+                                lineNumber: 287,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2158,7 +2148,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: result.description
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 289,
+                                lineNumber: 288,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -2175,7 +2165,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: "What you'll get:"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 293,
+                                lineNumber: 292,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2187,7 +2177,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                 className: "w-4 h-4 text-orange-500 flex-shrink-0"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                lineNumber: 297,
+                                                lineNumber: 296,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2195,24 +2185,24 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                 children: feature
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                lineNumber: 298,
+                                                lineNumber: 297,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 295,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 294,
+                                lineNumber: 293,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 292,
+                        lineNumber: 291,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2224,19 +2214,19 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                     className: "w-3 h-3"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                    lineNumber: 306,
+                                    lineNumber: 305,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 "Starts 15 Nov — 20 seats only"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                            lineNumber: 305,
+                            lineNumber: 304,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 304,
+                        lineNumber: 303,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2245,7 +2235,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                         children: result.cta
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 311,
+                        lineNumber: 310,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -2276,14 +2266,14 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 328,
+                                        lineNumber: 327,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     "PROJECT MANAGEMENT QUIZ"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 327,
+                                lineNumber: 326,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2291,7 +2281,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: "Let's find out if Project Management is your next big move."
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 331,
+                                lineNumber: 330,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2299,13 +2289,13 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: "This 2-minute quiz will show how close you already are to project management — and what your next step should be."
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 332,
+                                lineNumber: 331,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 326,
+                        lineNumber: 325,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2314,18 +2304,18 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                         children: "Start Quiz"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 337,
+                        lineNumber: 336,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                lineNumber: 325,
+                lineNumber: 324,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-            lineNumber: 324,
+            lineNumber: 323,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -2343,7 +2333,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: "Almost there!"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 353,
+                                lineNumber: 352,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2351,13 +2341,13 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: "Tell us a bit about yourself to see your personalized results."
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 354,
+                                lineNumber: 353,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 352,
+                        lineNumber: 351,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2370,7 +2360,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         children: "First Name *"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 359,
+                                        lineNumber: 358,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -2380,13 +2370,13 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         placeholder: "Enter your first name"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 360,
+                                        lineNumber: 359,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 358,
+                                lineNumber: 357,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2396,7 +2386,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         children: "Email *"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 369,
+                                        lineNumber: 368,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -2407,13 +2397,13 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         placeholder: "Enter your email"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 370,
+                                        lineNumber: 369,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 368,
+                                lineNumber: 367,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2423,7 +2413,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         children: "WhatsApp Number *"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 380,
+                                        lineNumber: 379,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -2433,13 +2423,13 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         placeholder: "Enter your WhatsApp number"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 381,
+                                        lineNumber: 380,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 379,
+                                lineNumber: 378,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2449,7 +2439,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         children: "Which best describes you? *"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 390,
+                                        lineNumber: 389,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Select"], {
@@ -2461,12 +2451,12 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                     placeholder: "Select your background"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                    lineNumber: 393,
+                                                    lineNumber: 392,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                lineNumber: 392,
+                                                lineNumber: 391,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectContent"], {
@@ -2476,7 +2466,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                         children: "Support Worker"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                        lineNumber: 396,
+                                                        lineNumber: 395,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -2484,7 +2474,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                         children: "Graduate"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                        lineNumber: 397,
+                                                        lineNumber: 396,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -2492,7 +2482,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                         children: "Career Switcher"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                        lineNumber: 398,
+                                                        lineNumber: 397,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
@@ -2500,31 +2490,31 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                                         children: "Other"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                        lineNumber: 399,
+                                                        lineNumber: 398,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                                lineNumber: 395,
+                                                lineNumber: 394,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 391,
+                                        lineNumber: 390,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 389,
+                                lineNumber: 388,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 357,
+                        lineNumber: 356,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2537,7 +2527,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: "Previous"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 406,
+                                lineNumber: 405,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2547,24 +2537,24 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                 children: isSaving ? 'Saving...' : 'See My Results'
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                lineNumber: 409,
+                                lineNumber: 408,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                        lineNumber: 405,
+                        lineNumber: 404,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                lineNumber: 351,
+                lineNumber: 350,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-            lineNumber: 350,
+            lineNumber: 349,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -2591,7 +2581,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                    lineNumber: 430,
+                                    lineNumber: 429,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2603,18 +2593,18 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                        lineNumber: 434,
+                                        lineNumber: 433,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                    lineNumber: 433,
+                                    lineNumber: 432,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                            lineNumber: 429,
+                            lineNumber: 428,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2622,13 +2612,13 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                             children: currentQuestion.text
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                            lineNumber: 440,
+                            lineNumber: 439,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                    lineNumber: 428,
+                    lineNumber: 427,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2639,12 +2629,12 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                             children: answer.text
                         }, answer.id, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                            lineNumber: 445,
+                            lineNumber: 444,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                    lineNumber: 443,
+                    lineNumber: 442,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2658,7 +2648,7 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                             children: "Previous"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                            lineNumber: 460,
+                            lineNumber: 459,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2671,30 +2661,30 @@ const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick })=>{
                                     className: "w-4 h-4 ml-2"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                                    lineNumber: 474,
+                                    lineNumber: 473,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                            lineNumber: 468,
+                            lineNumber: 467,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-                    lineNumber: 459,
+                    lineNumber: 458,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-            lineNumber: 427,
+            lineNumber: 426,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/ProjectManagementQuiz.tsx",
-        lineNumber: 426,
+        lineNumber: 425,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2772,6 +2762,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2
 ;
 const TriTaster = ()=>{
     const [isQuizOpen, setIsQuizOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const handleFitCallClick = ()=>{
+        // TODO: Implement fit call functionality
+        console.log('Fit call clicked');
+    };
+    const handleOpenDayClick = ()=>{
+        // TODO: Implement open day functionality
+        console.log('Open day clicked');
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "py-20 bg-white",
         children: [
@@ -2784,14 +2782,14 @@ const TriTaster = ()=>{
                             className: "absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                            lineNumber: 14,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                            lineNumber: 15,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2805,17 +2803,17 @@ const TriTaster = ()=>{
                                             className: "w-10 h-10"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                            lineNumber: 20,
+                                            lineNumber: 30,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2823,10 +2821,10 @@ const TriTaster = ()=>{
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-3xl md:text-4xl font-bold mb-4",
-                                            children: " Join Free Taster. to 🤔 Not sure if Project Management's for you?"
+                                            children: " 🤔 Not sure if Project Management's for you?"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                            lineNumber: 24,
+                                            lineNumber: 34,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2834,7 +2832,7 @@ const TriTaster = ()=>{
                                             children: "Take our 2-minute quiz and see how close you already are to a PM career. Get your result instantly — plus your next best step:"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                            lineNumber: 26,
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2847,20 +2845,20 @@ const TriTaster = ()=>{
                                                             className: "w-5 h-5 text-white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                            lineNumber: 32,
+                                                            lineNumber: 42,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "Join the 4-Week Bootcamp"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                            lineNumber: 33,
+                                                            lineNumber: 43,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                    lineNumber: 31,
+                                                    lineNumber: 41,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2870,20 +2868,20 @@ const TriTaster = ()=>{
                                                             className: "w-5 h-5 text-white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                            lineNumber: 36,
+                                                            lineNumber: 46,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "Book a Fit Call"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                            lineNumber: 37,
+                                                            lineNumber: 47,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                    lineNumber: 35,
+                                                    lineNumber: 45,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2893,26 +2891,26 @@ const TriTaster = ()=>{
                                                             className: "w-5 h-5 text-white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                            lineNumber: 40,
+                                                            lineNumber: 50,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "Or Attend the Open Day"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                            lineNumber: 41,
+                                                            lineNumber: 51,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 49,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                            lineNumber: 30,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2925,50 +2923,52 @@ const TriTaster = ()=>{
                                                     className: "ml-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                                    lineNumber: 49,
+                                                    lineNumber: 59,
                                                     columnNumber: 31
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                            lineNumber: 17,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                    lineNumber: 13,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                lineNumber: 12,
+                lineNumber: 22,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$components$2f$QuizModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["QuizModal"], {
                 isOpen: isQuizOpen,
-                onClose: ()=>setIsQuizOpen(false)
+                onClose: ()=>setIsQuizOpen(false),
+                onFitCallClick: handleFitCallClick,
+                onOpenDayClick: handleOpenDayClick
             }, void 0, false, {
                 fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-                lineNumber: 56,
+                lineNumber: 66,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/Desktop Folder/manchester-pm-launchpad/components/TriTaster.tsx",
-        lineNumber: 11,
+        lineNumber: 21,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -4246,7 +4246,7 @@ const WhatsAppButton = ()=>{
         window.open("https://wa.link/5wfig7", "_blank");
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed bottom-24 right-6 z-50 group",
+        className: "fixed bottom-6 right-6 z-50 group",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Desktop__Folder$2f$manchester$2d$pm$2d$launchpad$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute bottom-full right-0 mb-2 px-3 py-2 bg-gray-800 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap",

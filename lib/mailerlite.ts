@@ -29,6 +29,14 @@ export async function addSubscriberToMailerLite(
   const apiKey = process.env.MAILERLITE_API_KEY;
   const defaultGroupId = process.env.MAILERLITE_GROUP_ID || groupId;
 
+  console.log('MailerLite integration attempt:', { 
+    email, 
+    firstName, 
+    hasApiKey: !!apiKey, 
+    hasGroupId: !!defaultGroupId,
+    groupId: defaultGroupId 
+  });
+
   if (!apiKey) {
     console.error('MailerLite API key is not configured');
     return { success: false, error: 'MailerLite API key is not configured' };
@@ -59,20 +67,28 @@ export async function addSubscriberToMailerLite(
     });
 
     const data: MailerLiteResponse = await response.json();
+    
+    console.log('MailerLite API response:', { 
+      status: response.status, 
+      ok: response.ok, 
+      data 
+    });
 
     if (!response.ok) {
       // Handle existing subscriber (409) or other errors
       if (response.status === 409) {
+        console.log('Subscriber already exists, attempting to add to group...');
         // Subscriber already exists, try to update/add to group
         return await updateSubscriberGroup(email, firstName, defaultGroupId);
       }
 
       const errorMessage =
         data.message || data.errors?.[0]?.message || `HTTP ${response.status}`;
-      console.error('MailerLite API error:', errorMessage);
+      console.error('MailerLite API error:', errorMessage, { response: data });
       return { success: false, error: errorMessage };
     }
 
+    console.log('MailerLite subscriber added successfully');
     return { success: true };
   } catch (error) {
     console.error('Error adding subscriber to MailerLite:', error);

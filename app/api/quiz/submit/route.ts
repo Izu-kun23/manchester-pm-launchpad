@@ -42,11 +42,16 @@ export async function POST(request: NextRequest) {
     });
 
     // Add subscriber to MailerLite (non-blocking - don't fail if this fails)
+    let mailerLiteSuccess = false;
     try {
+      console.log('Attempting to add subscriber to MailerLite...', { email, firstName });
       const mailerLiteResult = await addSubscriberToMailerLite(email, firstName);
+      mailerLiteSuccess = mailerLiteResult.success;
       if (!mailerLiteResult.success) {
-        console.warn('MailerLite subscription failed:', mailerLiteResult.error);
+        console.error('MailerLite subscription failed:', mailerLiteResult.error);
         // Continue despite MailerLite failure - database save was successful
+      } else {
+        console.log('MailerLite subscription successful');
       }
     } catch (mailerLiteError) {
       console.error('MailerLite integration error:', mailerLiteError);
@@ -57,6 +62,7 @@ export async function POST(request: NextRequest) {
       success: true,
       quizSubmissionId: quizSubmission.id,
       leadId: lead.id,
+      mailerLiteSuccess,
     });
   } catch (error) {
     console.error('Error saving quiz data:', error);

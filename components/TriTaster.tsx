@@ -7,6 +7,16 @@ import { QuizModal } from "./QuizModal";
 export const TriTaster = () => {
   const [isQuizOpen, setIsQuizOpen] = useState(false);
 
+  const handleFitCallClick = () => {
+    // TODO: Implement fit call functionality
+    console.log('Fit call clicked');
+  };
+
+  const handleOpenDayClick = () => {
+    // TODO: Implement open day functionality
+    console.log('Open day clicked');
+  };
+
   return (
     <section className="py-20 bg-white">
       <div className="container px-4">
@@ -21,7 +31,7 @@ export const TriTaster = () => {
               </div>
             </div>
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4"> Join Free Taster. to 🤔 Not sure if Project Management's for you?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4"> 🤔 Not sure if Project Management's for you?</h2>
         
               <p className="text-lg text-white/90 mb-6 leading-relaxed">
                 Take our 2-minute quiz and see how close you already are to a PM career.
@@ -56,6 +66,8 @@ export const TriTaster = () => {
       <QuizModal 
         isOpen={isQuizOpen} 
         onClose={() => setIsQuizOpen(false)} 
+        onFitCallClick={handleFitCallClick}
+        onOpenDayClick={handleOpenDayClick}
       />
     </section>
   );

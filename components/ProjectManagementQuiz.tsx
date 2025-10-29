@@ -281,7 +281,6 @@ export const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick }: Projec
         <Card className="p-8 text-center bg-white border-2 border-orange-500">
           <div className="mb-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500 rounded-full text-sm font-bold text-white mb-4">
-              <Target className="w-4 h-4" />
               QUIZ RESULTS
             </div>
             <h2 className="text-3xl font-bold text-black mb-2">{result.headline}</h2>
