@@ -6,8 +6,9 @@ import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Check, ArrowRight, Clipboard, Target, Users, Lightbulb, Calendar } from 'lucide-react';
+import { Check, ArrowRight, Clipboard, Target, Users, Lightbulb, Calendar, CheckCircle } from 'lucide-react';
 import { QuizAnswer, QuizQuestion, LeadData, QuizResult, QuizScores } from '@/types/quiz';
+import { useToast } from '@/hooks/use-toast';
 
 interface ProjectManagementQuizProps {
   onFitCallClick: () => void;
@@ -137,6 +138,7 @@ export const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick }: Projec
   });
   const [isComplete, setIsComplete] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
+  const { toast } = useToast();
 
   const totalSteps = quizQuestions.length + 2; // +2 for welcome and lead capture
 
@@ -217,12 +219,35 @@ export const ProjectManagementQuiz = ({ onFitCallClick, onOpenDayClick }: Projec
       if (response.ok) {
         const data = await response.json();
         console.log('Quiz data saved successfully:', data);
+        
+        // Show success toast
+        toast({
+          title: "Quiz Submitted Successfully! 🎉",
+          description: "Your results have been saved. Check your email for next steps.",
+          duration: 5000,
+        });
       } else {
         const errorData = await response.text();
         console.error('Failed to save quiz data:', errorData);
+        
+        // Show error toast
+        toast({
+          title: "Submission Failed",
+          description: "There was an error saving your quiz. Please try again.",
+          variant: "destructive",
+          duration: 5000,
+        });
       }
     } catch (error) {
       console.error('Error saving quiz data:', error);
+      
+      // Show error toast for network/other errors
+      toast({
+        title: "Submission Failed",
+        description: "There was an error saving your quiz. Please try again.",
+        variant: "destructive",
+        duration: 5000,
+      });
     } finally {
       setIsSaving(false);
     }

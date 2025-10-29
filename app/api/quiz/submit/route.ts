@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma-client';
+import { addSubscriberToMailerLite } from '@/lib/mailerlite';
 
 export async function POST(request: NextRequest) {
   try {
@@ -39,6 +40,18 @@ export async function POST(request: NextRequest) {
         notes: `Quiz result: ${resultType}`,
       },
     });
+
+    // Add subscriber to MailerLite (non-blocking - don't fail if this fails)
+    try {
+      const mailerLiteResult = await addSubscriberToMailerLite(email, firstName);
+      if (!mailerLiteResult.success) {
+        console.warn('MailerLite subscription failed:', mailerLiteResult.error);
+        // Continue despite MailerLite failure - database save was successful
+      }
+    } catch (mailerLiteError) {
+      console.error('MailerLite integration error:', mailerLiteError);
+      // Continue despite MailerLite error - database save was successful
+    }
 
     return NextResponse.json({
       success: true,
